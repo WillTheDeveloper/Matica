@@ -5,18 +5,18 @@ Math library. Most of it is probably written using GitHub copilot because I am b
 ## Math functions include:
 
 - [X] Add
-- [ ] Subtract
-- [ ] Multiply
-- [ ] Divide
+- [X] Subtract
+- [X] Multiply
+- [X] Divide
 - [ ] Square root
 - [ ] x cubed
 - [ ] x squared
-- [ ] Two dimensional matrices
-- [ ] Three dimensional matrices
-- [ ] Matrix multiplication
-- [ ] Matrix transpose
-- [ ] Matrix determinant
-- [ ] Matrix inverse
+- [X] Two dimensional matrices
+- [X] Three dimensional matrices
+- [X] Matrix multiplication
+- [X] Matrix transpose
+- [X] Matrix determinant
+- [X] Matrix inverse
 - [ ] Powers
 - [ ] Exponents
 - [ ] Logarithms
