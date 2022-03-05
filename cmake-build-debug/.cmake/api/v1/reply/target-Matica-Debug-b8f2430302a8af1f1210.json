@@ -128,7 +128,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "matrices.h",
+			"path" : "headers/matrices.h",
 			"sourceGroupIndex" : 1
 		}
 	],

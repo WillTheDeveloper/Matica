@@ -6,13 +6,22 @@
 #define MATICA_BASICS_H
 
 namespace basic {
-    int add();
 
-    int subtract();
+    int add(int n, ...);
 
-    int divide();
+    int subtract(int n, ...);
 
-    int multiply();
+    int multiply(int n, ...);
+
+    int divide(int n, ...);
+
+    int max(int n, ...);
+
+    int min(int n, ...);
+
+    int average(int n, ...);
+
+    int sum(std::vector<int> v);
 }
 
 #endif //MATICA_BASICS_H

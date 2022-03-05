@@ -14,7 +14,7 @@
 using namespace basic;
 
 // Function to add multiple numbers
-int add(int n, ...) {
+int basic::add(int n, ...) {
     va_list args;
     va_start(args, n);
     int sum = 0;
@@ -26,7 +26,7 @@ int add(int n, ...) {
 }
 
 // Function to subtract multiple numbers
-int subtract(int n, ...) {
+int basic::subtract(int n, ...) {
     va_list args;
     va_start(args, n);
     int sum = va_arg(args, int);
@@ -38,7 +38,7 @@ int subtract(int n, ...) {
 }
 
 // Function to multiply multiple numbers
-int multiply(int n, ...) {
+int basic::multiply(int n, ...) {
     va_list args;
     va_start(args, n);
     int sum = 1;
@@ -50,7 +50,7 @@ int multiply(int n, ...) {
 }
 
 // Function to divide multiple numbers
-int divide(int n, ...) {
+int basic::divide(int n, ...) {
     va_list args;
     va_start(args, n);
     int sum = va_arg(args, int);
@@ -59,4 +59,51 @@ int divide(int n, ...) {
     }
     va_end(args);
     return sum;
+}
+
+// Function to find the maximum of multiple numbers
+int basic::max(int n, ...) {
+    va_list args;
+    va_start(args, n);
+    int max = va_arg(args, int);
+    for (int i = 1; i < n; i++) {
+        int temp = va_arg(args, int);
+        if (temp > max) {
+            max = temp;
+        }
+    }
+    va_end(args);
+    return max;
+}
+
+// Function to find the minimum of multiple numbers
+int basic::min(int n, ...) {
+    va_list args;
+    va_start(args, n);
+    int min = va_arg(args, int);
+    for (int i = 1; i < n; i++) {
+        int temp = va_arg(args, int);
+        if (temp < min) {
+            min = temp;
+        }
+    }
+    va_end(args);
+    return min;
+}
+
+// Function to find the average of multiple numbers
+int basic::average(int n, ...) {
+    va_list args;
+    va_start(args, n);
+    int sum = 0;
+    for (int i = 0; i < n; i++) {
+        sum += va_arg(args, int);
+    }
+    va_end(args);
+    return sum / n;
+}
+
+// Function to find the sum of all the numbers in a vector
+int basic::sum(std::vector<int> v) {
+    return std::accumulate(v.begin(), v.end(), 0);
 }
