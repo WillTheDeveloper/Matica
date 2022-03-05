@@ -6,7 +6,13 @@
 #define MATICA_BASICS_H
 
 namespace basic {
+    int add();
 
+    int subtract();
+
+    int divide();
+
+    int multiply();
 }
 
 #endif //MATICA_BASICS_H

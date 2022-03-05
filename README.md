@@ -1,0 +1,66 @@
+# Matica
+
+Math library. Most of it is probably written using GitHub copilot because I am bad at math.
+
+## Math functions include:
+
+- [X] Add
+- [ ] Subtract
+- [ ] Multiply
+- [ ] Divide
+- [ ] Square root
+- [ ] x cubed
+- [ ] x squared
+- [ ] Two dimensional matrices
+- [ ] Three dimensional matrices
+- [ ] Matrix multiplication
+- [ ] Matrix transpose
+- [ ] Matrix determinant
+- [ ] Matrix inverse
+- [ ] Powers
+- [ ] Exponents
+- [ ] Logarithms
+- [ ] Trigonometry
+- [ ] Hyperbolic trigonometry
+- [ ] Inverse trigonometry
+- [ ] Inverse hyperbolic trigonometry
+- [ ] Sine
+- [ ] Cosine
+- [ ] Tangent
+- [ ] Secant
+- [ ] Cosecant
+- [ ] Cotangent
+- [ ] Inverse sine
+- [ ] Inverse cosine
+- [ ] Inverse tangent
+- [ ] Inverse secant
+- [ ] Inverse cosecant
+- [ ] Inverse cotangent
+- [ ] Hyperbolic sine
+- [ ] Hyperbolic cosine
+- [ ] Hyperbolic tangent
+- [ ] Hyperbolic secant
+- [ ] Hyperbolic cosecant
+- [ ] Hyperbolic cotangent
+- [ ] Inverse hyperbolic sine
+- [ ] Inverse hyperbolic cosine
+- [ ] Inverse hyperbolic tangent
+- [ ] Inverse hyperbolic secant
+- [ ] Inverse hyperbolic cosecant
+- [ ] Inverse hyperbolic cotangent
+- [ ] K-means clustering
+- [ ] K-means clustering with random initialisation
+- [ ] K-means clustering with k-means++ initialisation
+- [ ] K-means clustering with k-means++ initialisation and random reassignment
+- [ ] Array operations
+- [ ] Mean
+- [ ] Median
+- [ ] Mode
+- [ ] Standard deviation
+- [ ] Variance
+- [ ] Covariance
+- [ ] Correlation
+- [ ] Correlation coefficient
+- [ ] Correlation coefficient (Pearson)
+- [ ] Correlation coefficient (Spearman)
+- [ ] Correlation coefficient (Kendall)

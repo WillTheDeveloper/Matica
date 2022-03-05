@@ -84,6 +84,12 @@ build CMakeFiles/Matica.dir/basics.cpp.o: CXX_COMPILER__Matica_Debug /home/will/
   OBJECT_DIR = CMakeFiles/Matica.dir
   OBJECT_FILE_DIR = CMakeFiles/Matica.dir
 
+build CMakeFiles/Matica.dir/matrices.cpp.o: CXX_COMPILER__Matica_Debug /home/will/CLionProjects/Matica/matrices.cpp || cmake_object_order_depends_target_Matica
+  DEP_FILE = CMakeFiles/Matica.dir/matrices.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Matica.dir
+  OBJECT_FILE_DIR = CMakeFiles/Matica.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Matica
@@ -92,7 +98,7 @@ build CMakeFiles/Matica.dir/basics.cpp.o: CXX_COMPILER__Matica_Debug /home/will/
 #############################################
 # Link the executable Matica
 
-build Matica: CXX_EXECUTABLE_LINKER__Matica_Debug CMakeFiles/Matica.dir/main.cpp.o CMakeFiles/Matica.dir/basics.cpp.o
+build Matica: CXX_EXECUTABLE_LINKER__Matica_Debug CMakeFiles/Matica.dir/main.cpp.o CMakeFiles/Matica.dir/basics.cpp.o CMakeFiles/Matica.dir/matrices.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Matica.dir
   POST_BUILD = :
