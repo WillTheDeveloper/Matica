@@ -20,10 +20,10 @@ Math library. Most of it is probably written using GitHub copilot because I am b
 - [ ] Powers
 - [ ] Exponents
 - [ ] Logarithms
-- [ ] Trigonometry
-- [ ] Hyperbolic trigonometry
-- [ ] Inverse trigonometry
-- [ ] Inverse hyperbolic trigonometry
+- [X] Trigonometry
+- [X] Hyperbolic trigonometry
+- [X] Inverse trigonometry
+- [X] Inverse hyperbolic trigonometry
 - [X] Sine
 - [X] Cosine
 - [X] Tangent
