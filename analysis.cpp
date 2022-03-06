@@ -131,24 +131,24 @@ double analysis::calculate_covariance(std::vector<std::vector<double>> data) {
     return covariance;
 }
 
-// Calculate the correlation of the given data
+// Calculate the correlationH of the given data
 double analysis::calculate_correlation(std::vector<std::vector<double>> data) {
-    // Initialize the correlation
+    // Initialize the correlationH
     double correlation = 0;
 
-    // Calculate the correlation
+    // Calculate the correlationH
     for (int i = 0; i < data.size(); i++) {
-        // Calculate the correlation
+        // Calculate the correlationH
         for (int j = 0; j < data[0].size(); j++) {
-            // Calculate the correlation
+            // Calculate the correlationH
             correlation += data[i][j] * data[i][j];
         }
     }
 
-    // Calculate the correlation
+    // Calculate the correlationH
     correlation = correlation / data.size();
 
-    // Return the correlation
+    // Return the correlationH
     return correlation;
 }
 

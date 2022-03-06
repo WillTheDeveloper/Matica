@@ -59,11 +59,11 @@ Math library. Most of it is probably written using GitHub copilot because I am b
 - [X] Standard deviation
 - [X] Variance
 - [ ] Covariance
-- [ ] Correlation
-- [ ] Correlation coefficient
-- [ ] Correlation coefficient (Pearson)
-- [ ] Correlation coefficient (Spearman)
-- [ ] Correlation coefficient (Kendall)
+- [X] Correlation
+- [X] Correlation coefficient
+- [X] Correlation coefficient (Pearson)
+- [X] Correlation coefficient (Spearman)
+- [X] Correlation coefficient (Kendall)
 
 ## Statement functions include:
 
