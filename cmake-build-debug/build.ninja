@@ -90,6 +90,30 @@ build CMakeFiles/Matica.dir/matrices.cpp.o: CXX_COMPILER__Matica_Debug /home/wil
   OBJECT_DIR = CMakeFiles/Matica.dir
   OBJECT_FILE_DIR = CMakeFiles/Matica.dir
 
+build CMakeFiles/Matica.dir/operations.cpp.o: CXX_COMPILER__Matica_Debug /home/will/CLionProjects/Matica/operations.cpp || cmake_object_order_depends_target_Matica
+  DEP_FILE = CMakeFiles/Matica.dir/operations.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Matica.dir
+  OBJECT_FILE_DIR = CMakeFiles/Matica.dir
+
+build CMakeFiles/Matica.dir/analysis.cpp.o: CXX_COMPILER__Matica_Debug /home/will/CLionProjects/Matica/analysis.cpp || cmake_object_order_depends_target_Matica
+  DEP_FILE = CMakeFiles/Matica.dir/analysis.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Matica.dir
+  OBJECT_FILE_DIR = CMakeFiles/Matica.dir
+
+build CMakeFiles/Matica.dir/graphing.cpp.o: CXX_COMPILER__Matica_Debug /home/will/CLionProjects/Matica/graphing.cpp || cmake_object_order_depends_target_Matica
+  DEP_FILE = CMakeFiles/Matica.dir/graphing.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Matica.dir
+  OBJECT_FILE_DIR = CMakeFiles/Matica.dir
+
+build CMakeFiles/Matica.dir/statements.cpp.o: CXX_COMPILER__Matica_Debug /home/will/CLionProjects/Matica/statements.cpp || cmake_object_order_depends_target_Matica
+  DEP_FILE = CMakeFiles/Matica.dir/statements.cpp.o.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Matica.dir
+  OBJECT_FILE_DIR = CMakeFiles/Matica.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Matica
@@ -98,7 +122,7 @@ build CMakeFiles/Matica.dir/matrices.cpp.o: CXX_COMPILER__Matica_Debug /home/wil
 #############################################
 # Link the executable Matica
 
-build Matica: CXX_EXECUTABLE_LINKER__Matica_Debug CMakeFiles/Matica.dir/main.cpp.o CMakeFiles/Matica.dir/basics.cpp.o CMakeFiles/Matica.dir/matrices.cpp.o
+build Matica: CXX_EXECUTABLE_LINKER__Matica_Debug CMakeFiles/Matica.dir/main.cpp.o CMakeFiles/Matica.dir/basics.cpp.o CMakeFiles/Matica.dir/matrices.cpp.o CMakeFiles/Matica.dir/operations.cpp.o CMakeFiles/Matica.dir/analysis.cpp.o CMakeFiles/Matica.dir/graphing.cpp.o CMakeFiles/Matica.dir/statements.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Matica.dir
   POST_BUILD = :
