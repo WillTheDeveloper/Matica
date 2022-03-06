@@ -8,9 +8,9 @@ Math library. Most of it is probably written using GitHub copilot because I am b
 - [X] Subtract
 - [X] Multiply
 - [X] Divide
-- [ ] Square root
-- [ ] x cubed
-- [ ] x squared
+- [x] Square root
+- [X] x cubed
+- [X] x squared
 - [X] Two dimensional matrices
 - [X] Three dimensional matrices
 - [X] Matrix multiplication

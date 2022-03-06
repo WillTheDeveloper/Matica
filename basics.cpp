@@ -9,6 +9,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <complex>
 #include "headers/basics.h"
 
 using namespace basic;
@@ -106,4 +107,19 @@ int basic::average(int n, ...) {
 // Function to find the sum of all the numbers in a vector
 int basic::sum(std::vector<int> v) {
     return std::accumulate(v.begin(), v.end(), 0);
+}
+
+// Function to find the square root of a number
+int basic::sqrt(int n) {
+    return std::sqrt(n);
+}
+
+// Function to cube a number
+int basic::cube(int n) {
+    return n * n * n;
+}
+
+// Function to square a number
+int basic::square(int n) {
+    return n * n;
 }

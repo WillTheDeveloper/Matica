@@ -22,6 +22,12 @@ namespace basic {
     int average(int n, ...);
 
     int sum(std::vector<int> v);
+
+    int sqrt(int n);
+
+    int square(int n);
+
+    int cube(int n);
 }
 
 #endif //MATICA_BASICS_H

@@ -184,7 +184,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "statements.h",
+			"path" : "headers/statements.h",
 			"sourceGroupIndex" : 1
 		}
 	],
