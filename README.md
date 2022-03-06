@@ -1,6 +1,23 @@
 # Matica
 
-Math library. Most of it is probably written using GitHub copilot because I am bad at math.
+Math library. Most of it is written using GitHub copilot because I am bad at math.
+
+## Usage:
+
+1. Download the repo.
+2. Open repo in root directory.
+3. Run `make`.
+
+## Contributing:
+
+1. Fork the repo.
+2. Create a new branch.
+3. Make changes.
+4. Commit.
+5. Push to the remote.
+6. Open a pull request.
+
+We welcome all contributions! If you have any questions, please open an issue.
 
 ## Math functions include:
 
