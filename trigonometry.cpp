@@ -2,7 +2,7 @@
 // Created by will on 06/03/2022.
 //
 
-#include "trigonometry.h"
+#include "headers/trigonometry.h"
 
 using namespace trig;
 
